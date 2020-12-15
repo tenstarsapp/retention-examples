@@ -1,0 +1,16 @@
+{
+  "name": "tenstars-retention-react-example",
+  "description": "Tenstars Retention Widget HTML+Javascript Example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.4"
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

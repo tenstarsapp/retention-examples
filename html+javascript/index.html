@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="En-en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tenstars Retention Widget HTML+Javascript Example</title>
+
+	<script>
+		function setValue(SubscriptionId) {
+			document.getElementById('tenstars_cancel_btn').setAttribute('value', SubscriptionId);
+		}
+	</script>
+</head>
+<body onload="setValue('sub_HJYmxWnuDpbb1i')">
+<div>
+	<h1>Tenstars Retention Widget HTML+Javascript Example</h1>
+
+	<label for="subscriptionID">SubscriptionId:</label>
+	<input value="sub_HJYmxWnuDpbb1i" onchange="setValue(this.value)" type="text" style="margin-bottom: 20px" id="subscriptionID"/>
+
+	<p>Note that 'YOUR_API_KEY_HERE' in the button's src needs to be set to the API key of your site</p>
+
+	<div>
+		<div id="tenstars-widget"></div>
+		<button id="tenstars_cancel_btn">Cancel my subscription</button>
+		<script id="tenstars"
+		        src="https://tenstars.web.app/bundled-survey-script.js?apiKey=YOUR_API_KEY_HERE"></script>
+	</div>
+</div>
+
+</body>
+</html>

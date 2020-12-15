@@ -12,7 +12,7 @@ This is the simplest possible setup. The only thing that's required is to pass t
 
 In this example we read the subscription id from an input that can be changed.
 
-- [SEE CODE](./html+javascript/index.html)
+[SEE CODE](./html+javascript/index.html)
 
 Or clone it and run it!
 

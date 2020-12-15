@@ -20,7 +20,7 @@ Or clone it and run it!
 git clone git@github.com:tenstarsapp/retention-examples.git
 ```
 
-The open `retention-examples/html+javascript/index.html` in your favorite browser.
+Then open `retention-examples/html+javascript/index.html` in your favorite browser.
 
 ## React Example
 
